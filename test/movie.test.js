@@ -1,7 +1,7 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const should = chai.should();
-const server = require('../../app');
+const server = require('../app');
 chai.use(chaiHttp);
 
 let token, movieId;
@@ -34,7 +34,7 @@ describe('/api/movies tests', () => {
         it('it should POST a movie', (done) => {
             const movie = {
                 title: 'Udemy',
-                director_id: '5a34e1afb8523a78631f8540',
+                director_id: '5e3d821e8d9c7c1330916f35',
                 category: 'Komedi',
                 country: 'Türkiye',
                 year: 1950,
@@ -84,7 +84,7 @@ describe('/api/movies tests', () => {
         it('it should UPDATE a movie given by id', (done) => {
             const movie = {
                 title: '93creative',
-                director_id: '5a34e1afb8523a78631f8541',
+                director_id: '5e3d821e8d9c7c1330916f35',
                 category: 'Suç',
                 country: 'Fransa',
                 year: 1970,
