@@ -20,7 +20,7 @@
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.1.0",
     "mocha": "^7.0.1",
-    "mongoose": "^4.13.7",
+    "mongoose": "^4.13.21",
     "morgan": "~1.9.1",
     "serve-favicon": "^2.4.5"
   },
